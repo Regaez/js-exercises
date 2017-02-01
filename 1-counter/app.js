@@ -2,5 +2,5 @@
 	'use-strict';
 
 	// ENTER YOUR CODE HERE
-
+var x;
 })();
