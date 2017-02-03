@@ -6,7 +6,7 @@
 	var decr = document.getElementsByClassName('decrement'); //is giving me a list (HTMLCollection)
 	var incr = document.getElementsByClassName('increment');
 
-	decr[0].addEventListener('click', function(){
+	decr[0].addEventListener('click', function(){ // addEventListener only for single elements - no HTMLCollection
 	 	var newOutput = document.getElementsByClassName('output');
 		//console.log(newOutput[0].innerHTML--);
 		newOutput[0].innerHTML--; // .innerHTML only for single elements - no HTMLCollection
